@@ -8,10 +8,7 @@ terraform {
     }
   }
 
-  # initial_setup/prod/terraform.tf で設定したbackendの設定を引き継ぐ
-  backend "local" {
-    path = "terraform.tfstate"
-  }
+  # buckendの設定は別ファイルに記述し、gitignoreとする
 }
 
 provider "aws" {
