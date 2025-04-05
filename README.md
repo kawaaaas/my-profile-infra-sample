@@ -1,5 +1,4 @@
-# my-profile-infra
+## my-profile-infra
 
-my-profile のインフラを管理しているリポジトリです
-
-セキュリティの関係上、このリポジトリからは my-profile にデプロイできませんが、静的ホスティングを用いたアーキテクチャを参照できます。
+This repository manages the infrastructure for my-profile.
+For security reasons, deployments to my-profile cannot be made from this repository, but you can reference the architecture using static hosting.
